@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospital>
+    <pacientes>
+        <paciente id="NFM93W">
+            <nombre>Irene</nombre>
+            <apellidos>López</apellidos>
+            <limite_poliza moneda="euros">290</limite_poliza>
+            <edad>19</edad>
+            <provincia>Córdoba</provincia>
+            <fecha_consulta>2024-02-12</fecha_consulta>
+        </paciente>
+
+        <paciente id="SIR81L">
+            <nombre>Carlos</nombre>
+            <apellidos>Fernández</apellidos>
+            <limite_poliza moneda="euros">130</limite_poliza>
+            <edad>30</edad>
+            <provincia>Sevilla</provincia>
+            <fecha_consulta>2024-02-04</fecha_consulta>
+        </paciente>
+
+        <paciente id="QQR45T">
+            <nombre>Belén</nombre>
+            <apellidos>Martín</apellidos>
+            <limite_poliza moneda="euros">320</limite_poliza>
+            <edad>19</edad>
+            <provincia>Málaga</provincia>
+            <fecha_consulta>2024-02-16</fecha_consulta>
+        </paciente>
+
+        <paciente id="BQZ85J">
+            <nombre>Jose</nombre>
+            <apellidos>García</apellidos>
+            <limite_poliza moneda="euros">230</limite_poliza>
+            <edad>22</edad>
+            <provincia>Sevilla</provincia>
+            <fecha_consulta>2024-02-25</fecha_consulta>
+        </paciente>
+
+        <paciente id="JPB60E">
+            <nombre>Miguel</nombre>
+            <apellidos>Sánchez</apellidos>
+            <limite_poliza moneda="euros">400</limite_poliza>
+            <edad>25</edad>
+            <provincia>Málaga</provincia>
+            <fecha_consulta>2024-02-15</fecha_consulta>
+        </paciente>
+
+        <paciente id="FSZ24R">
+            <nombre>Jose</nombre>
+            <apellidos>Romera</apellidos>
+            <limite_poliza moneda="euros">400</limite_poliza>
+            <edad>30</edad>
+            <provincia>Jaén</provincia>
+            <fecha_consulta>2024-02-05</fecha_consulta>
+        </paciente>
+
+        <paciente id="QHQ53C">
+            <nombre>Francisco</nombre>
+            <apellidos>Delgado</apellidos>
+            <limite_poliza moneda="euros">180</limite_poliza>
+            <edad>25</edad>
+            <provincia>Cádiz</provincia>
+            <fecha_consulta>2024-02-18</fecha_consulta>
+        </paciente>
+
+        <paciente id="IDQ54I">
+            <nombre>Francisco</nombre>
+            <apellidos>Martínez</apellidos>
+            <limite_poliza moneda="euros">260</limite_poliza>
+            <edad>30</edad>
+            <provincia>Cádiz</provincia>
+            <fecha_consulta>2024-02-22</fecha_consulta>
+        </paciente>
+
+        <paciente id="KOD44D">
+            <nombre>Antonio</nombre>
+            <apellidos>Diaz</apellidos>
+            <limite_poliza moneda="euros">150</limite_poliza>
+            <edad>22</edad>
+            <provincia>Almería</provincia>
+            <fecha_consulta>2024-02-21</fecha_consulta>
+        </paciente>
+
+        <paciente id="DVW78T">
+            <nombre>Jose</nombre>
+            <apellidos>Fernández</apellidos>
+            <limite_poliza moneda="euros">150</limite_poliza>
+            <edad>22</edad>
+            <provincia>Córdoba</provincia>
+            <fecha_consulta>2024-02-19</fecha_consulta>
+        </paciente>
+    </pacientes>
+    <especialidades>
+        <especialidad codigo="DER-01" facultativo="11111111-A">
+            <nombre>Dermatólogo mañana</nombre>
+            <ubicacion>Consulta 3</ubicacion>
+            <num_visitas>10</num_visitas>
+          </especialidad>
+
+          <especialidad codigo="DER-02" facultativo="11111111-A">
+            <nombre>Dermatólogo tardes</nombre>
+            <ubicacion>Consulta multiusos</ubicacion>
+            <num_visitas>15</num_visitas>
+          </especialidad>
+
+          <especialidad codigo="NEU-01" facultativo="22222222-B">
+            <nombre>Neumología</nombre>
+            <ubicacion>Consulta 10</ubicacion>
+            <num_visitas>12</num_visitas>
+          </especialidad>
+
+          <especialidad codigo="TRA-01" facultativo="33333333-C">
+            <nombre>Traumatología</nombre>
+            <ubicacion>Urgencias</ubicacion>
+            <num_visitas>8</num_visitas>
+          </especialidad>
+
+          <especialidad codigo="ALE-02" facultativo="22222222-B">
+            <nombre>Alergólogo</nombre>
+            <ubicacion>Consulta 10</ubicacion>
+            <num_visitas>12</num_visitas>
+          </especialidad>
+
+          <especialidad codigo="CAR-01" facultativo="11111111-A">
+            <nombre>Cardiología</nombre>
+            <ubicacion>Consulta 2</ubicacion>
+            <num_visitas>15</num_visitas>
+          </especialidad>
+
+          <especialidad codigo="MGE-01" facultativo="11111111-A">
+            <nombre>Medicina general</nombre>
+            <ubicacion>Consulta 3</ubicacion>
+            <num_visitas>6</num_visitas>
+          </especialidad>
+
+          <especialidad codigo="PED-01" facultativo="44444444-D">
+            <nombre>Pediatría mañanas</nombre>
+            <ubicacion>Consulta multiusos</ubicacion>
+            <num_visitas>14</num_visitas>
+          </especialidad>
+
+          <especialidad codigo="PED-02" facultativo="44444444-D">
+            <nombre>Pediatría tardes</nombre>
+            <ubicacion>Consulta multiusos</ubicacion>
+            <num_visitas>10</num_visitas>
+          </especialidad>
+    </especialidades>
+
+    <facultativos>
+        <facultativo dni="11111111-A">
+            <nombre>Francisco</nombre>
+            <apellidos>Fernández</apellidos>
+            <sueldo moneda="euros">5200</sueldo>
+            <antiguedad unidad="meses">60</antiguedad>
+        </facultativo>
+
+        <facultativo dni="22222222-B">
+            <nombre>María</nombre>
+            <apellidos>Martínez</apellidos>
+            <sueldo moneda="euros">3600</sueldo>
+            <antiguedad unidad="meses">18</antiguedad>
+        </facultativo>
+
+        <facultativo dni="33333333-C">
+            <nombre>Antonio</nombre>
+            <apellidos>Amate</apellidos>
+            <sueldo moneda="euros">3500</sueldo>
+            <antiguedad unidad="meses">25</antiguedad>
+        </facultativo>
+
+        <facultativo dni="44444444-D">
+            <nombre>Carmen</nombre>
+            <apellidos>Camacho</apellidos>
+            <sueldo moneda="euros">2000</sueldo>
+            <antiguedad unidad="meses">9</antiguedad>
+        </facultativo>
+    </facultativos>
+    
+    <inscripciones>
+      <inscripcion id="NFM93W" codigo="DER-01" />
+      <inscripcion id="NFM93W" codigo="DER-02" />
+      <inscripcion id="NFM93W" codigo="NEU-01" />
+      <inscripcion id="SIR81L" codigo="DER-01" />
+      <inscripcion id="SIR81L" codigo="TRA-01" />
+      <inscripcion id="QQR45T" codigo="DER-01" />
+      <inscripcion id="QQR45T" codigo="ALE-02" />
+      <inscripcion id="BQZ85J" codigo="MGE-01" />
+      <inscripcion id="BQZ85J" codigo="DER-02" />
+      <inscripcion id="JPB60E" codigo="TRA-01" />
+      <inscripcion id="JPB60E" codigo="ALE-02" />
+      <inscripcion id="FSZ24R" codigo="CAR-01" />
+      <inscripcion id="FSZ24R" codigo="CAR-01" />
+      <inscripcion id="QHQ53C" codigo="PED-02" />
+      <inscripcion id="QHQ53C" codigo="PED-01" />
+      <inscripcion id="IDQ54I" codigo="NEU-01" />
+      <inscripcion id="IDQ54I" codigo="MGE-01" />
+      <inscripcion id="KOD44D" codigo="NEU-01" />
+      <inscripcion id="KOD44D" codigo="CAR-01" />
+      <inscripcion id="DVW78T" codigo="PED-01" />
+      <inscripcion id="DVW78T" codigo="CAR-01" />
+    </inscripciones>
+</hospital>
