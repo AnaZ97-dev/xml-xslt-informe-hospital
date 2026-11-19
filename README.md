@@ -1,5 +1,5 @@
 Transformación XML a HTML con XSLT (Informe Hospitalario)
-Proyecto de procesamiento de datos en XML utilizando hojas de estilo XSLT para generar un informe HTML dinámico. El proyecto aplica lógica de programación (bucles, condicionales y ordenación) para transformar los datos de un hospital.
+Proyecto de procesamiento de datos en XML utilizando hojas de estilo XSLT para generar un informe HTML dinámico. El proyecto aplica lógica de programación (bucles, condicionales y ordenación) para transformar los datos de un hospital. También incluye consultas XQuery para la extracción de datos (ver archivo .xquery)
 
 Tecnologías y Herramientas
 Datos: XML (eXtensible Markup Language)
