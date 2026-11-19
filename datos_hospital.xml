@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospital>
+  <datos>
+    <nombre>Hospital de los Lenguajes de Marcas</nombre>
+  </datos>
+
+  <medicamentos>
+    <medicamento id="M01" tipo="Analgésico">
+      <nombre>Paracetamol</nombre>
+      <precio>2.50</precio>
+      <stock>120</stock>
+    </medicamento>
+    <medicamento id="M02" tipo="Antiinflamatorio">
+      <nombre>Ibuprofeno</nombre>
+      <precio>3.10</precio>
+      <stock>60</stock>
+    </medicamento>
+    <medicamento id="M03" tipo="Antibiótico">
+      <nombre>Amoxicilina</nombre>
+      <precio>5.75</precio>
+      <stock>15</stock>
+    </medicamento>
+    <medicamento id="M04" tipo="Protector gástrico">
+      <nombre>Omeprazol</nombre>
+      <precio>4.20</precio>
+      <stock>0</stock>
+    </medicamento>
+    <medicamento id="M05" tipo="Antialérgico">
+      <nombre>Loratadina</nombre>
+      <precio>3.80</precio>
+      <stock>200</stock>
+    </medicamento>
+    <medicamento id="M06" tipo="Antiinflamatorio">
+      <nombre>Naproxeno</nombre>
+      <precio>4.10</precio>
+      <stock>25</stock>
+    </medicamento>
+    <medicamento id="M07" tipo="Antibiótico">
+      <nombre>Azitromicina</nombre>
+      <precio>7.50</precio>
+      <stock>5</stock>
+    </medicamento>
+    <medicamento id="M08" tipo="Analgésico">
+      <nombre>Metamizol</nombre>
+      <precio>2.90</precio>
+      <stock>90</stock>
+    </medicamento>
+    <medicamento id="M09" tipo="Antiviral">
+      <nombre>Aciclovir</nombre>
+      <precio>6.40</precio>
+      <stock>30</stock>
+    </medicamento>
+    <medicamento id="M10" tipo="Anticoagulante">
+      <nombre>Heparina</nombre>
+      <precio>12.00</precio>
+      <stock>8</stock>
+    </medicamento>
+  </medicamentos>
+
+  <pacientes>
+    <paciente id="P01">
+      <nombre>Ana López</nombre>
+      <edad>35</edad>
+    </paciente>
+    <paciente id="P02">
+      <nombre>Carlos Pérez</nombre>
+      <edad>62</edad>
+    </paciente>
+    <paciente id="P03">
+      <nombre>María Gómez</nombre>
+      <edad>28</edad>
+    </paciente>
+    <paciente id="P04">
+      <nombre>Javier Ruiz</nombre>
+      <edad>51</edad>
+    </paciente>
+    <paciente id="P05">
+      <nombre>Laura Sánchez</nombre>
+      <edad>44</edad>
+    </paciente>
+    <paciente id="P06">
+      <nombre>Pedro Martín</nombre>
+      <edad>70</edad>
+    </paciente>
+    <paciente id="P07">
+      <nombre>Sara Torres</nombre>
+      <edad>19</edad>
+    </paciente>
+    <paciente id="P08">
+      <nombre>David Romero</nombre>
+      <edad>58</edad>
+    </paciente>
+    <paciente id="P09">
+      <nombre>Elena Díaz</nombre>
+      <edad>33</edad>
+    </paciente>
+    <paciente id="P10">
+      <nombre>Alberto Molina</nombre>
+      <edad>47</edad>
+    </paciente>
+  </pacientes>
+
+  <medicaciones>
+    <medicacion idPaciente="P01" idMedicamento="M01">1 cada 8h</medicacion>
+    <medicacion idPaciente="P01" idMedicamento="M02">1 cada 12h</medicacion>
+    <medicacion idPaciente="P02" idMedicamento="M03">1 cada 8h</medicacion>
+    <medicacion idPaciente="P02" idMedicamento="M04">1 al día</medicacion>
+    <medicacion idPaciente="P03" idMedicamento="M05">1 al día</medicacion>
+    <medicacion idPaciente="P04" idMedicamento="M06">1 cada 12h</medicacion>
+    <medicacion idPaciente="P05" idMedicamento="M07">1 cada 24h</medicacion>
+    <medicacion idPaciente="P06" idMedicamento="M10">Según pauta</medicacion>
+    <medicacion idPaciente="P08" idMedicamento="M09">1 cada 8h</medicacion>
+    <medicacion idPaciente="P09" idMedicamento="M08">1 cada 6h</medicacion>
+  </medicaciones>
+</hospital>
